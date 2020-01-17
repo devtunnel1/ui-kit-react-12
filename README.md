@@ -1,8 +1,8 @@
 # ui-kit-react-12
 
-> TODO: Component Description
+> UI Kit for React
 
-[![NPM](https://img.shields.io/npm/v/ui-kit-react-12.svg)](https://www.npmjs.com/package/ui-kit-react-12) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
@@ -15,12 +15,12 @@ npm install --save ui-kit-react-12
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-modern-library-component'
+import { ButtonComponentV1 } from 'ui-kit-react-12'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <ButtonComponentV1 text='Modern React component' />
     )
   }
 }
@@ -28,4 +28,4 @@ class Example extends Component {
 
 ## License
 
-MIT © [Travis Fischer](https://github.com/devtunnel1)
+MIT © [Akio Satoh](https://github.com/devtunnel1)
