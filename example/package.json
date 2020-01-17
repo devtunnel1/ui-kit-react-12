@@ -5,11 +5,12 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
+    "node-sass": "^4.13.1",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "ui-kit-react-12": "link:..",
-    "react-scripts": "^1.1.4"
+    "react-scripts": "^1.1.4",
+    "ui-kit-react-12": "link:.."
   },
   "scripts": {
     "start": "react-scripts start",

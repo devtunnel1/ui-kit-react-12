@@ -5,7 +5,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import styles from './styles.css'
+import styles from './styles.scss'
 
 export default class ButtonComponentV1 extends Component {
   static propTypes = {
