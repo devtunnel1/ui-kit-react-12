@@ -7,7 +7,7 @@ import PropTypes from 'prop-types'
 
 import styles from './styles.scss'
 
-export default class ButtonComponentV1 extends Component {
+class ButtonComponentV1 extends Component {
   static propTypes = {
     text: PropTypes.string
   }
@@ -24,3 +24,5 @@ export default class ButtonComponentV1 extends Component {
     )
   }
 }
+
+export default ButtonComponentV1
